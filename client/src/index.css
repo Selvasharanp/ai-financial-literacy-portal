@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Orbitron:wght@800&display=swap');
+
+:root {
+  --primary: #EAB308; /* Sharper Yellow for contrast */
+  --bg-main: #ffffff;
+  --bg-subtle: #f8fafc;
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --border: #e2e8f0;
+  --text-main: #0f172a; /* Slate 900 */
+  --text-muted: #64748b; /* Slate 500 */
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: 'Space Grotesk', sans-serif;
+  /* Soft Dot Pattern for Light Mode */
+  background-image: radial-gradient(#e2e8f0 1.5px, transparent 1.5px);
+  background-size: 30px 30px;
+}
+
+/* THE BENTO GLASS CARD (Light Version) */
+.bento-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bento-card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* PREMIUM TYPOGRAPHY */
+.title-main {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 32px;
+  color: var(--text-main);
+  letter-spacing: -1px;
+}
+
+/* MODERN BUTTON (High Contrast) */
+.btn-action {
+  background: var(--text-main);
+  color: #fff;
+  border: none;
+  padding: 16px 28px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  transition: all 0.2s ease;
+}
+
+.btn-action:hover {
+  background: var(--primary);
+  color: #000;
+  transform: translateY(-2px);
+}
+
+/* FORM STYLING */
+.input-wrapper {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+  color: var(--text-main);
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+  transition: all 0.3s;
+}
+
+.input-wrapper:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px rgba(234, 179, 8, 0.1);
+}
+
+@media (max-width: 1100px) {
+  .app-main { margin-left: 80px !important; padding: 28px !important; }
+  .sidebar + main { margin-left: 80px !important; padding: 28px !important; }
+  .sidebar { width: 80px !important; padding: 20px 10px !important; }
+  .sidebar-brand { justify-content: center; margin-bottom: 30px !important; }
+  .sidebar-brand h2, .sidebar-item { font-size: 0 !important; justify-content: center; padding: 13px !important; }
+  .sidebar-item svg { width: 21px; height: 21px; }
+  .sidebar-logout { font-size: 0 !important; justify-content: center; padding: 13px !important; }
+  .dashboard-content-grid, .ledger-grid, .goals-layout-grid { grid-template-columns: 1fr !important; }
+  .dashboard-content-grid > :first-child { min-height: 320px; }
+}
+
+@media (max-width: 700px) {
+  body { background-size: 22px 22px; }
+  .app-main { margin-left: 0 !important; padding: 22px 16px 100px !important; width: 100%; }
+  .sidebar + main { margin-left: 0 !important; padding: 22px 16px 100px !important; width: 100%; }
+  .sidebar { width: 100% !important; height: 70px !important; padding: 7px 8px !important; top: auto !important; bottom: 0; border-right: 0 !important; border-top: 1px solid var(--border); flex-direction: row !important; z-index: 200 !important; }
+  .sidebar-brand, .sidebar-logout { display: none !important; }
+  .sidebar-nav { width: 100%; flex-direction: row !important; justify-content: space-around; gap: 4px !important; }
+  .sidebar-item { flex: 1; min-width: 0; padding: 10px 4px !important; }
+  .page-header { align-items: flex-start !important; margin-bottom: 26px !important; }
+  .page-header .title-main, .title-main { font-size: 24px !important; }
+  .dashboard-actions { width: 100%; }
+  .dashboard-actions .btn-action { flex: 1; padding: 12px 8px !important; font-size: 11px; }
+  .dashboard-actions > div { display: none; }
+  .stats-grid, .dashboard-content-grid, .dashboard-lower-grid, .ledger-grid, .goals-layout-grid, .goals-grid { grid-template-columns: 1fr !important; gap: 16px !important; }
+  .bento-card { padding: 22px !important; border-radius: 18px; }
+  .dashboard-content-grid > :first-child { height: 300px !important; }
+  .literacy-grid, .library-grid { grid-template-columns: 1fr !important; gap: 16px !important; }
+  .ai-chatbot { right: 16px !important; bottom: 84px !important; }
+  .ai-chatbot > div { width: min(350px, calc(100vw - 32px)) !important; height: min(500px, calc(100vh - 170px)) !important; }
+  input, select, button { font-size: 16px; }
+}
