@@ -1,0 +1,320 @@
+// client/src/data/conceptsData.js
+// 8 Core Financial Education Concepts for FinWise AI Literacy Hub
+export const CONCEPTS_DATA = [
+	{
+		id: "budgeting-saving",
+		title: "Budgeting & Saving: The 50/30/20 Rule",
+		category: "Budgeting and Saving",
+		estimatedMinutes: 4,
+		summary: "A simple, stress-free method to divide your monthly income between essentials, lifestyle, and future wealth.",
+		explanation: [
+			"Budgeting is not about restriction or giving up the things you love. It is about intentionally directing every rupee where you want it to go before the month begins, rather than wondering where it went at the end.",
+			"The gold-standard framework for beginners is the 50/30/20 Rule:",
+			"• 50% for Needs: Non-negotiable living essentials required for survival and livelihood. This includes housing rent, groceries, electricity, water, commuting to work, medicine, and minimum debt payments.",
+			"• 30% for Wants: Discretionary lifestyle spending that brings comfort and enjoyment. This includes dining out, weekend entertainment, shopping, movies, and streaming subscriptions.",
+			"• 20% for Savings & Investments: Securing your emergency safety cushion, funding monthly SIPs in mutual funds, and paying down debt ahead of schedule."
+		],
+		example: {
+			title: "Realistic Example: ₹50,000 Monthly Take-Home Salary",
+			description: "Here is how a ₹50,000 monthly income splits under the 50/30/20 rule:",
+			items: [
+				{
+					label: "Essential Needs (50%)",
+					amount: "₹25,000",
+					note: "Rent: ₹15k, Groceries: ₹6k, Utilities & Commute: ₹4k"
+				},
+				{
+					label: "Flexible Wants (30%)",
+					amount: "₹15,000",
+					note: "Dining out: ₹6k, Shopping: ₹5k, Entertainment: ₹4k"
+				},
+				{
+					label: "Savings & Investments (20%)",
+					amount: "₹10,000",
+					note: "Index Fund SIP: ₹6k, Emergency Buffer: ₹4k"
+				}
+			],
+			result: "In just 1 year, you effortlessly save ₹1,20,000 while fully enjoying your lifestyle without money stress."
+		},
+		activity: {
+			type: "budget",
+			title: "Interactive 50/30/20 Budget Calculator",
+			description: "Adjust your monthly in-hand salary to calculate your exact monthly targets:"
+		},
+		takeaway: "Pay yourself first. Automate your 20% savings on the day your salary arrives, and spend the remaining balance without guilt."
+	},
+	{
+		id: "compound-interest",
+		title: "Compound Interest: The Wealth Multiplier",
+		category: "Compound Interest",
+		estimatedMinutes: 5,
+		summary: "How earning interest on your previous interest causes your money to grow exponentially over time.",
+		explanation: [
+			"Simple interest earns returns only on your original principal deposit. Compound interest, however, earns returns on both your principal and the accumulated interest from all previous periods.",
+			"In the first few years, compound interest looks slow and steady. But after 10, 15, or 20 years, your accumulated interest starts generating far more money every year than your original salary deposits. This exponential acceleration is what builds long-term wealth.",
+			"The three key ingredients of compound interest are: Amount invested, Expected return rate, and most importantly, Time."
+		],
+		example: {
+			title: "Realistic Example: Investing ₹10,000 / Month at 12% Return",
+			description: "A disciplined monthly SIP into a broad equity index fund over 20 years:",
+			items: [{
+				label: "At 10 Years",
+				amount: "₹23.2 Lakhs",
+				note: "You invested ₹12 Lakhs • Interest gained: ₹11.2 Lakhs"
+			}, {
+				label: "At 20 Years",
+				amount: "₹99.9 Lakhs",
+				note: "You invested ₹24 Lakhs • Interest gained: ₹75.9 Lakhs!"
+			}],
+			result: "Notice: During the second 10-year period, your wealth increased by over ₹76 Lakhs, even though your own deposits were only ₹12 Lakhs!"
+		},
+		activity: {
+			type: "compound",
+			title: "Interactive Compound Growth Simulator",
+			description: "See how your monthly investment multiplies across different time horizons:"
+		},
+		takeaway: "Time in the market beats timing the market. Starting even 5 years earlier can double your eventual retirement wealth."
+	},
+	{
+		id: "inflation",
+		title: "Inflation: The Silent Purchasing Power Eater",
+		category: "Inflation",
+		estimatedMinutes: 4,
+		summary: "Why prices increase every year and how keeping cash in a savings account quietly reduces your wealth.",
+		explanation: [
+			"Inflation is the steady rise in the prices of goods and services over time. If annual inflation is 6%, an item that costs ₹100 today will cost ₹106 next year.",
+			"The hidden danger of inflation is purchasing power erosion. If your money sits idle in a standard bank savings account earning 3% interest while inflation is 6%, your real purchasing power drops by 3% every single year.",
+			"Even though your bank balance looks the same, that money buys fewer groceries, fuel, and medical services as time passes."
+		],
+		example: {
+			title: "Realistic Example: Household Expenses Over Time",
+			description: "If your family needs ₹30,000/month today for groceries and living essentials at 6% annual inflation:",
+			items: [
+				{
+					label: "Today",
+					amount: "₹30,000 / month",
+					note: "Current baseline living expenses"
+				},
+				{
+					label: "In 10 Years",
+					amount: "₹53,725 / month",
+					note: "Same exact goods cost 79% more"
+				},
+				{
+					label: "In 20 Years",
+					amount: "₹96,214 / month",
+					note: "You need over triple the rupees for the same lifestyle!"
+				}
+			],
+			result: "To preserve your wealth, your long-term money must be invested in assets that deliver higher returns than inflation after tax."
+		},
+		activity: {
+			type: "inflation",
+			title: "Interactive Inflation Impact Calculator",
+			description: "See how future inflation increases the cost of your current expenses:"
+		},
+		takeaway: "Cash in a bank account guarantees safety of principal, but guarantees loss of purchasing power. Invest to beat inflation."
+	},
+	{
+		id: "loans-emi",
+		title: "Loans & EMI: Mastering Debt & Prepayments",
+		category: "Loans and EMI",
+		estimatedMinutes: 5,
+		summary: "How monthly loan installments work and why making small prepayments saves lakhs in interest.",
+		explanation: [
+			"An Equated Monthly Installment (EMI) has two distinct parts: Principal repayment (paying down the original borrowed sum) and Interest charges (the fee the bank charges for lending you money).",
+			"In long-term loans (like home loans), banks front-load the interest. During the first 5 years of a 20-year loan, up to 70–80% of every single EMI payment goes directly toward bank interest, barely reducing your actual debt!",
+			"The good news: Any extra prepayment you make goes 100% directly toward reducing your principal, which immediately lowers your future interest calculations."
+		],
+		example: {
+			title: "Realistic Example: ₹30 Lakh Home Loan at 9% for 20 Years",
+			description: "The real numbers behind long-term bank borrowing:",
+			items: [
+				{
+					label: "Monthly EMI",
+					amount: "₹26,992",
+					note: "Fixed monthly obligation"
+				},
+				{
+					label: "Total Repayment",
+					amount: "₹64,78,034",
+					note: "Principal: ₹30L + Interest: ₹34.8L"
+				},
+				{
+					label: "Prepayment Hack",
+					amount: "Saves ~₹7,20,000",
+					note: "Paying just 1 extra EMI per year cuts tenure from 20 to 16 years!"
+				}
+			],
+			result: "On long loans, you frequently pay more in interest than the loan itself unless you make disciplined prepayments."
+		},
+		activity: {
+			type: "emi",
+			title: "Interactive EMI & Interest Calculator",
+			description: "Calculate the monthly EMI, total interest, and full repayment cost of any loan:"
+		},
+		takeaway: "Avoid high-interest consumer debt. On long-term mortgages, prepaying small amounts early slashes years of debt and lakhs in interest."
+	},
+	{
+		id: "credit-scores",
+		title: "Credit Scores: Building and Protecting Your CIBIL",
+		category: "Credit Scores",
+		estimatedMinutes: 4,
+		summary: "How your 3-digit score influences loan approvals and interest rates, and the 2 habits to maintain a 750+ score.",
+		explanation: [
+			"In India, credit bureaus (such as CIBIL, Experian, and CRIF) assign individuals a score between 300 and 900 based on their debt track record:",
+			"• 750 to 900 (Excellent): Prime borrower. You qualify for the lowest interest rates and instant credit card and loan approvals.",
+			"• 650 to 749 (Average): Fair credit. Loans are approved, but at higher interest rates with stricter scrutiny.",
+			"• Below 650 (High Risk): Poor credit. Very difficult to obtain loans or credit cards.",
+			"Your score is driven primarily by on-time payment history (35%) and your credit utilization ratio (30%)."
+		],
+		example: {
+			title: "Realistic Example: Loan Cost for High vs Average CIBIL Score",
+			description: "Two individuals applying for a ₹40,00,000 home loan for 20 years:",
+			items: [{
+				label: "Priya (Score 790)",
+				amount: "8.4% Rate • EMI: ₹34,460",
+				note: "Total interest paid: ₹42.7 Lakhs"
+			}, {
+				label: "Rahul (Score 660)",
+				amount: "9.6% Rate • EMI: ₹37,542",
+				note: "Total interest paid: ₹50.1 Lakhs"
+			}],
+			result: "Priya saves ₹3,082 every single month, pocketing over ₹7,40,000 in savings simply by keeping a healthy credit score."
+		},
+		activity: {
+			type: "credit",
+			title: "Interactive Credit Utilization Checker",
+			description: "Check whether your monthly credit card usage is safely inside the healthy 30% boundary:"
+		},
+		takeaway: "Always pay 100% of your credit card bill before the due date, and keep your credit card spend below 30% of your credit limit."
+	},
+	{
+		id: "insurance",
+		title: "Insurance: Protecting What Matters Most",
+		category: "Insurance",
+		estimatedMinutes: 4,
+		summary: "Why pure term life insurance and comprehensive health insurance must come before any investment.",
+		explanation: [
+			"Insurance is not an investment tool; it is a financial seatbelt. Its purpose is to absorb catastrophic financial shock so your family never falls into debt or liquidates savings due to illness or loss of life.",
+			"Every earner needs two essential policies:",
+			"1. Pure Term Life Insurance: Provides a large sum (10–15x your annual salary) to your dependents in case of untimely death. It has no investment gimmicks and is very affordable.",
+			"2. Comprehensive Health Insurance: Covers hospitalization, day-care procedures, and critical treatments, shielding your hard-earned savings from medical inflation."
+		],
+		example: {
+			title: "Realistic Example: Pure Term Cover vs Endowment Plan",
+			description: "A 28-year-old non-smoker earning ₹7,00,000 per year:",
+			items: [{
+				label: "Pure Term Insurance",
+				amount: "₹1 Crore Cover",
+				note: "Costs only ~₹800 to ₹1,000 per month"
+			}, {
+				label: "Endowment / ULIP Plan",
+				amount: "₹2 Lakhs Cover",
+				note: "Costs the same ₹1,000/month with mediocre 4-5% return"
+			}],
+			result: "By taking pure term cover, you secure 50x higher coverage for your family while keeping your remaining savings free to grow in equity mutual funds."
+		},
+		activity: {
+			type: "insurance",
+			title: "Term Life Insurance Cover Estimator",
+			description: "Calculate the recommended life cover based on your annual income and liabilities:"
+		},
+		takeaway: "Never mix insurance with investments. Buy a pure Term Life plan and a comprehensive Health cover, and invest your wealth separately."
+	},
+	{
+		id: "taxes",
+		title: "Taxes: Direct Taxes & Old vs New Regime",
+		category: "Taxes",
+		estimatedMinutes: 5,
+		summary: "How to compare the Old and New tax regimes to keep more of your hard-earned paycheck.",
+		explanation: [
+			"In India, salaried taxpayers can choose between two tax regimes each financial year:",
+			"• New Tax Regime (Default): Offers lower slab rates and eliminates paperwork. In FY 2024–25, standard deduction (₹75,000) and rebate make income up to ₹7.75 Lakhs completely tax-free.",
+			"• Old Tax Regime: Features higher tax slab rates, but permits deductions like Section 80C (up to ₹1.5L in EPF/ELSS/PPF), Section 80D (health insurance), House Rent Allowance (HRA), and home loan interest.",
+			"The choice comes down to math: If your total eligible deductions exceed ₹2.5–3 Lakhs, the Old Regime may save you money. Otherwise, the New Regime is simpler and cheaper."
+		],
+		example: {
+			title: "Realistic Example: Comparing Regimes on a ₹9,00,000 Salary",
+			description: "Tax comparison for an annual CTC of ₹9 Lakhs:",
+			items: [
+				{
+					label: "New Tax Regime",
+					amount: "Tax: ~₹35,000",
+					note: "Standard deduction of ₹75,000 with zero paperwork"
+				},
+				{
+					label: "Old Regime (No Deductions)",
+					amount: "Tax: ~₹96,200",
+					note: "Higher tax brackets without deductions"
+				},
+				{
+					label: "Old Regime (₹3L Deductions)",
+					amount: "Tax: ~₹30,000",
+					note: "Slightly lower tax, but requires ₹3L locked in HRA/80C"
+				}
+			],
+			result: "For most young earners, the New Regime provides lower tax with total freedom over how you spend or invest your money."
+		},
+		activity: {
+			type: "tax",
+			title: "Old vs New Tax Regime Estimator",
+			description: "Compare your estimated tax liability between the two regimes:"
+		},
+		takeaway: "If your total eligible deductions are below ₹2.5–3 Lakhs, the New Tax Regime is cleaner, hassle-free, and usually saves more tax."
+	},
+	{
+		id: "stocks-mutual-funds",
+		title: "Stocks & Mutual Funds: Growing Real Wealth",
+		category: "Stocks and Mutual Funds",
+		estimatedMinutes: 5,
+		summary: "How equity ownership and broad index funds outpace inflation without the stress of daily stock picking.",
+		explanation: [
+			"To build long-term wealth, your investments must grow faster than inflation. Equities (stocks) represent fractional ownership in real, revenue-producing companies.",
+			"There are three primary ways people invest in equities:",
+			"• Individual Stocks: Buying shares of one company. High potential gains, but high risk if that single company fails.",
+			"• Actively Managed Mutual Funds: A fund manager pools money from investors to pick 40–60 companies, charging a 1–2% yearly expense fee.",
+			"• Broad Index Funds (Nifty 50): Automatically invests in India’s top 50 blue-chip companies at ultra-low fees (~0.1%). It removes manager risk and captures the growth of the overall Indian economy."
+		],
+		example: {
+			title: "Realistic Example: ₹5,000 Monthly SIP in Nifty 50 Index",
+			description: "Long-term compounding at historical average 12.5% CAGR:",
+			items: [
+				{
+					label: "After 5 Years",
+					amount: "₹4.12 Lakhs",
+					note: "Total Invested: ₹3.0 Lakhs"
+				},
+				{
+					label: "After 10 Years",
+					amount: "₹11.61 Lakhs",
+					note: "Total Invested: ₹6.0 Lakhs"
+				},
+				{
+					label: "After 15 Years",
+					amount: "₹25.23 Lakhs",
+					note: "Total Invested: ₹9.0 Lakhs • Capital Gain: ₹16.2 Lakhs!"
+				}
+			],
+			result: "A disciplined monthly SIP turns a modest ₹5,000/month into a major corpus without needing to watch market charts."
+		},
+		activity: {
+			type: "sip",
+			title: "Interactive SIP Wealth Calculator",
+			description: "See the power of systematic investing across different monthly amounts and durations:"
+		},
+		takeaway: "Avoid speculative day-trading and hot tips. Start a regular monthly SIP in a low-cost broad index fund and let compounding work for you."
+	}
+];
+export const SUGGESTED_AI_QUESTIONS = [
+	"How does the 50/30/20 budget rule work with a realistic example?",
+	"Explain compound interest and the Rule of 72 in simple terms.",
+	"Why does inflation hurt my savings if money is sitting in a bank account?",
+	"How does prepaying an extra EMI on a home loan save so much interest?",
+	"What is a credit utilization ratio and how do I keep my CIBIL score above 750?",
+	"Why is pure term insurance better than an endowment policy?",
+	"What is the difference between the Old and New tax regimes in India?",
+	"What is the difference between a direct index fund and an active mutual fund?"
+];
+
+//# sourceMappingURL=data:application/json;base64,eyJtYXBwaW5ncyI6Ijs7QUFHQSxPQUFPLE1BQU0sZ0JBQWdCO0NBQzNCO0VBQ0UsSUFBSTtFQUNKLE9BQU87RUFDUCxVQUFVO0VBQ1Ysa0JBQWtCO0VBQ2xCLFNBQVM7RUFDVCxhQUFhO0dBQ1g7R0FDQTtHQUNBO0dBQ0E7R0FDQTtFQUNGO0VBQ0EsU0FBUztHQUNQLE9BQU87R0FDUCxhQUFhO0dBQ2IsT0FBTztJQUNMO0tBQUUsT0FBTztLQUF5QixRQUFRO0tBQVcsTUFBTTtJQUF1RDtJQUNsSDtLQUFFLE9BQU87S0FBd0IsUUFBUTtLQUFXLE1BQU07SUFBcUQ7SUFDL0c7S0FBRSxPQUFPO0tBQStCLFFBQVE7S0FBVyxNQUFNO0lBQTZDO0dBQ2hIO0dBQ0EsUUFBUTtFQUNWO0VBQ0EsVUFBVTtHQUNSLE1BQU07R0FDTixPQUFPO0dBQ1AsYUFBYTtFQUNmO0VBQ0EsVUFBVTtDQUNaO0NBQ0E7RUFDRSxJQUFJO0VBQ0osT0FBTztFQUNQLFVBQVU7RUFDVixrQkFBa0I7RUFDbEIsU0FBUztFQUNULGFBQWE7R0FDWDtHQUNBO0dBQ0E7RUFDRjtFQUNBLFNBQVM7R0FDUCxPQUFPO0dBQ1AsYUFBYTtHQUNiLE9BQU8sQ0FDTDtJQUFFLE9BQU87SUFBZSxRQUFRO0lBQWUsTUFBTTtHQUF3RCxHQUM3RztJQUFFLE9BQU87SUFBZSxRQUFRO0lBQWUsTUFBTTtHQUF5RCxDQUNoSDtHQUNBLFFBQVE7RUFDVjtFQUNBLFVBQVU7R0FDUixNQUFNO0dBQ04sT0FBTztHQUNQLGFBQWE7RUFDZjtFQUNBLFVBQVU7Q0FDWjtDQUNBO0VBQ0UsSUFBSTtFQUNKLE9BQU87RUFDUCxVQUFVO0VBQ1Ysa0JBQWtCO0VBQ2xCLFNBQVM7RUFDVCxhQUFhO0dBQ1g7R0FDQTtHQUNBO0VBQ0Y7RUFDQSxTQUFTO0dBQ1AsT0FBTztHQUNQLGFBQWE7R0FDYixPQUFPO0lBQ0w7S0FBRSxPQUFPO0tBQVMsUUFBUTtLQUFtQixNQUFNO0lBQW1DO0lBQ3RGO0tBQUUsT0FBTztLQUFlLFFBQVE7S0FBbUIsTUFBTTtJQUFpQztJQUMxRjtLQUFFLE9BQU87S0FBZSxRQUFRO0tBQW1CLE1BQU07SUFBMEQ7R0FDckg7R0FDQSxRQUFRO0VBQ1Y7RUFDQSxVQUFVO0dBQ1IsTUFBTTtHQUNOLE9BQU87R0FDUCxhQUFhO0VBQ2Y7RUFDQSxVQUFVO0NBQ1o7Q0FDQTtFQUNFLElBQUk7RUFDSixPQUFPO0VBQ1AsVUFBVTtFQUNWLGtCQUFrQjtFQUNsQixTQUFTO0VBQ1QsYUFBYTtHQUNYO0dBQ0E7R0FDQTtFQUNGO0VBQ0EsU0FBUztHQUNQLE9BQU87R0FDUCxhQUFhO0dBQ2IsT0FBTztJQUNMO0tBQUUsT0FBTztLQUFlLFFBQVE7S0FBVyxNQUFNO0lBQTJCO0lBQzVFO0tBQUUsT0FBTztLQUFtQixRQUFRO0tBQWMsTUFBTTtJQUFxQztJQUM3RjtLQUFFLE9BQU87S0FBbUIsUUFBUTtLQUFvQixNQUFNO0lBQW9FO0dBQ3BJO0dBQ0EsUUFBUTtFQUNWO0VBQ0EsVUFBVTtHQUNSLE1BQU07R0FDTixPQUFPO0dBQ1AsYUFBYTtFQUNmO0VBQ0EsVUFBVTtDQUNaO0NBQ0E7RUFDRSxJQUFJO0VBQ0osT0FBTztFQUNQLFVBQVU7RUFDVixrQkFBa0I7RUFDbEIsU0FBUztFQUNULGFBQWE7R0FDWDtHQUNBO0dBQ0E7R0FDQTtHQUNBO0VBQ0Y7RUFDQSxTQUFTO0dBQ1AsT0FBTztHQUNQLGFBQWE7R0FDYixPQUFPLENBQ0w7SUFBRSxPQUFPO0lBQXFCLFFBQVE7SUFBNEIsTUFBTTtHQUFtQyxHQUMzRztJQUFFLE9BQU87SUFBcUIsUUFBUTtJQUE0QixNQUFNO0dBQW1DLENBQzdHO0dBQ0EsUUFBUTtFQUNWO0VBQ0EsVUFBVTtHQUNSLE1BQU07R0FDTixPQUFPO0dBQ1AsYUFBYTtFQUNmO0VBQ0EsVUFBVTtDQUNaO0NBQ0E7RUFDRSxJQUFJO0VBQ0osT0FBTztFQUNQLFVBQVU7RUFDVixrQkFBa0I7RUFDbEIsU0FBUztFQUNULGFBQWE7R0FDWDtHQUNBO0dBQ0E7R0FDQTtFQUNGO0VBQ0EsU0FBUztHQUNQLE9BQU87R0FDUCxhQUFhO0dBQ2IsT0FBTyxDQUNMO0lBQUUsT0FBTztJQUF1QixRQUFRO0lBQWtCLE1BQU07R0FBdUMsR0FDdkc7SUFBRSxPQUFPO0lBQXlCLFFBQVE7SUFBa0IsTUFBTTtHQUF3RCxDQUM1SDtHQUNBLFFBQVE7RUFDVjtFQUNBLFVBQVU7R0FDUixNQUFNO0dBQ04sT0FBTztHQUNQLGFBQWE7RUFDZjtFQUNBLFVBQVU7Q0FDWjtDQUNBO0VBQ0UsSUFBSTtFQUNKLE9BQU87RUFDUCxVQUFVO0VBQ1Ysa0JBQWtCO0VBQ2xCLFNBQVM7RUFDVCxhQUFhO0dBQ1g7R0FDQTtHQUNBO0dBQ0E7RUFDRjtFQUNBLFNBQVM7R0FDUCxPQUFPO0dBQ1AsYUFBYTtHQUNiLE9BQU87SUFDTDtLQUFFLE9BQU87S0FBa0IsUUFBUTtLQUFpQixNQUFNO0lBQW9EO0lBQzlHO0tBQUUsT0FBTztLQUE4QixRQUFRO0tBQWlCLE1BQU07SUFBeUM7SUFDL0c7S0FBRSxPQUFPO0tBQStCLFFBQVE7S0FBaUIsTUFBTTtJQUF5RDtHQUNsSTtHQUNBLFFBQVE7RUFDVjtFQUNBLFVBQVU7R0FDUixNQUFNO0dBQ04sT0FBTztHQUNQLGFBQWE7RUFDZjtFQUNBLFVBQVU7Q0FDWjtDQUNBO0VBQ0UsSUFBSTtFQUNKLE9BQU87RUFDUCxVQUFVO0VBQ1Ysa0JBQWtCO0VBQ2xCLFNBQVM7RUFDVCxhQUFhO0dBQ1g7R0FDQTtHQUNBO0dBQ0E7R0FDQTtFQUNGO0VBQ0EsU0FBUztHQUNQLE9BQU87R0FDUCxhQUFhO0dBQ2IsT0FBTztJQUNMO0tBQUUsT0FBTztLQUFpQixRQUFRO0tBQWUsTUFBTTtJQUE2QjtJQUNwRjtLQUFFLE9BQU87S0FBa0IsUUFBUTtLQUFnQixNQUFNO0lBQTZCO0lBQ3RGO0tBQUUsT0FBTztLQUFrQixRQUFRO0tBQWdCLE1BQU07SUFBMEQ7R0FDckg7R0FDQSxRQUFRO0VBQ1Y7RUFDQSxVQUFVO0dBQ1IsTUFBTTtHQUNOLE9BQU87R0FDUCxhQUFhO0VBQ2Y7RUFDQSxVQUFVO0NBQ1o7QUFDRjtBQUVBLE9BQU8sTUFBTSx5QkFBeUI7Q0FDcEM7Q0FDQTtDQUNBO0NBQ0E7Q0FDQTtDQUNBO0NBQ0E7Q0FDQTtBQUNGIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbImNvbmNlcHRzRGF0YS5qcyJdLCJ2ZXJzaW9uIjozLCJzb3VyY2VzQ29udGVudCI6WyIvLyBjbGllbnQvc3JjL2RhdGEvY29uY2VwdHNEYXRhLmpzXG4vLyA4IENvcmUgRmluYW5jaWFsIEVkdWNhdGlvbiBDb25jZXB0cyBmb3IgRmluV2lzZSBBSSBMaXRlcmFjeSBIdWJcblxuZXhwb3J0IGNvbnN0IENPTkNFUFRTX0RBVEEgPSBbXG4gIHtcbiAgICBpZDogJ2J1ZGdldGluZy1zYXZpbmcnLFxuICAgIHRpdGxlOiAnQnVkZ2V0aW5nICYgU2F2aW5nOiBUaGUgNTAvMzAvMjAgUnVsZScsXG4gICAgY2F0ZWdvcnk6ICdCdWRnZXRpbmcgYW5kIFNhdmluZycsXG4gICAgZXN0aW1hdGVkTWludXRlczogNCxcbiAgICBzdW1tYXJ5OiAnQSBzaW1wbGUsIHN0cmVzcy1mcmVlIG1ldGhvZCB0byBkaXZpZGUgeW91ciBtb250aGx5IGluY29tZSBiZXR3ZWVuIGVzc2VudGlhbHMsIGxpZmVzdHlsZSwgYW5kIGZ1dHVyZSB3ZWFsdGguJyxcbiAgICBleHBsYW5hdGlvbjogW1xuICAgICAgJ0J1ZGdldGluZyBpcyBub3QgYWJvdXQgcmVzdHJpY3Rpb24gb3IgZ2l2aW5nIHVwIHRoZSB0aGluZ3MgeW91IGxvdmUuIEl0IGlzIGFib3V0IGludGVudGlvbmFsbHkgZGlyZWN0aW5nIGV2ZXJ5IHJ1cGVlIHdoZXJlIHlvdSB3YW50IGl0IHRvIGdvIGJlZm9yZSB0aGUgbW9udGggYmVnaW5zLCByYXRoZXIgdGhhbiB3b25kZXJpbmcgd2hlcmUgaXQgd2VudCBhdCB0aGUgZW5kLicsXG4gICAgICAnVGhlIGdvbGQtc3RhbmRhcmQgZnJhbWV3b3JrIGZvciBiZWdpbm5lcnMgaXMgdGhlIDUwLzMwLzIwIFJ1bGU6JyxcbiAgICAgICfigKIgNTAlIGZvciBOZWVkczogTm9uLW5lZ290aWFibGUgbGl2aW5nIGVzc2VudGlhbHMgcmVxdWlyZWQgZm9yIHN1cnZpdmFsIGFuZCBsaXZlbGlob29kLiBUaGlzIGluY2x1ZGVzIGhvdXNpbmcgcmVudCwgZ3JvY2VyaWVzLCBlbGVjdHJpY2l0eSwgd2F0ZXIsIGNvbW11dGluZyB0byB3b3JrLCBtZWRpY2luZSwgYW5kIG1pbmltdW0gZGVidCBwYXltZW50cy4nLFxuICAgICAgJ+KAoiAzMCUgZm9yIFdhbnRzOiBEaXNjcmV0aW9uYXJ5IGxpZmVzdHlsZSBzcGVuZGluZyB0aGF0IGJyaW5ncyBjb21mb3J0IGFuZCBlbmpveW1lbnQuIFRoaXMgaW5jbHVkZXMgZGluaW5nIG91dCwgd2Vla2VuZCBlbnRlcnRhaW5tZW50LCBzaG9wcGluZywgbW92aWVzLCBhbmQgc3RyZWFtaW5nIHN1YnNjcmlwdGlvbnMuJyxcbiAgICAgICfigKIgMjAlIGZvciBTYXZpbmdzICYgSW52ZXN0bWVudHM6IFNlY3VyaW5nIHlvdXIgZW1lcmdlbmN5IHNhZmV0eSBjdXNoaW9uLCBmdW5kaW5nIG1vbnRobHkgU0lQcyBpbiBtdXR1YWwgZnVuZHMsIGFuZCBwYXlpbmcgZG93biBkZWJ0IGFoZWFkIG9mIHNjaGVkdWxlLidcbiAgICBdLFxuICAgIGV4YW1wbGU6IHtcbiAgICAgIHRpdGxlOiAnUmVhbGlzdGljIEV4YW1wbGU6IOKCuTUwLDAwMCBNb250aGx5IFRha2UtSG9tZSBTYWxhcnknLFxuICAgICAgZGVzY3JpcHRpb246ICdIZXJlIGlzIGhvdyBhIOKCuTUwLDAwMCBtb250aGx5IGluY29tZSBzcGxpdHMgdW5kZXIgdGhlIDUwLzMwLzIwIHJ1bGU6JyxcbiAgICAgIGl0ZW1zOiBbXG4gICAgICAgIHsgbGFiZWw6ICdFc3NlbnRpYWwgTmVlZHMgKDUwJSknLCBhbW91bnQ6ICfigrkyNSwwMDAnLCBub3RlOiAnUmVudDog4oK5MTVrLCBHcm9jZXJpZXM6IOKCuTZrLCBVdGlsaXRpZXMgJiBDb21tdXRlOiDigrk0aycgfSxcbiAgICAgICAgeyBsYWJlbDogJ0ZsZXhpYmxlIFdhbnRzICgzMCUpJywgYW1vdW50OiAn4oK5MTUsMDAwJywgbm90ZTogJ0RpbmluZyBvdXQ6IOKCuTZrLCBTaG9wcGluZzog4oK5NWssIEVudGVydGFpbm1lbnQ6IOKCuTRrJyB9LFxuICAgICAgICB7IGxhYmVsOiAnU2F2aW5ncyAmIEludmVzdG1lbnRzICgyMCUpJywgYW1vdW50OiAn4oK5MTAsMDAwJywgbm90ZTogJ0luZGV4IEZ1bmQgU0lQOiDigrk2aywgRW1lcmdlbmN5IEJ1ZmZlcjog4oK5NGsnIH1cbiAgICAgIF0sXG4gICAgICByZXN1bHQ6ICdJbiBqdXN0IDEgeWVhciwgeW91IGVmZm9ydGxlc3NseSBzYXZlIOKCuTEsMjAsMDAwIHdoaWxlIGZ1bGx5IGVuam95aW5nIHlvdXIgbGlmZXN0eWxlIHdpdGhvdXQgbW9uZXkgc3RyZXNzLidcbiAgICB9LFxuICAgIGFjdGl2aXR5OiB7XG4gICAgICB0eXBlOiAnYnVkZ2V0JyxcbiAgICAgIHRpdGxlOiAnSW50ZXJhY3RpdmUgNTAvMzAvMjAgQnVkZ2V0IENhbGN1bGF0b3InLFxuICAgICAgZGVzY3JpcHRpb246ICdBZGp1c3QgeW91ciBtb250aGx5IGluLWhhbmQgc2FsYXJ5IHRvIGNhbGN1bGF0ZSB5b3VyIGV4YWN0IG1vbnRobHkgdGFyZ2V0czonXG4gICAgfSxcbiAgICB0YWtlYXdheTogJ1BheSB5b3Vyc2VsZiBmaXJzdC4gQXV0b21hdGUgeW91ciAyMCUgc2F2aW5ncyBvbiB0aGUgZGF5IHlvdXIgc2FsYXJ5IGFycml2ZXMsIGFuZCBzcGVuZCB0aGUgcmVtYWluaW5nIGJhbGFuY2Ugd2l0aG91dCBndWlsdC4nXG4gIH0sXG4gIHtcbiAgICBpZDogJ2NvbXBvdW5kLWludGVyZXN0JyxcbiAgICB0aXRsZTogJ0NvbXBvdW5kIEludGVyZXN0OiBUaGUgV2VhbHRoIE11bHRpcGxpZXInLFxuICAgIGNhdGVnb3J5OiAnQ29tcG91bmQgSW50ZXJlc3QnLFxuICAgIGVzdGltYXRlZE1pbnV0ZXM6IDUsXG4gICAgc3VtbWFyeTogJ0hvdyBlYXJuaW5nIGludGVyZXN0IG9uIHlvdXIgcHJldmlvdXMgaW50ZXJlc3QgY2F1c2VzIHlvdXIgbW9uZXkgdG8gZ3JvdyBleHBvbmVudGlhbGx5IG92ZXIgdGltZS4nLFxuICAgIGV4cGxhbmF0aW9uOiBbXG4gICAgICAnU2ltcGxlIGludGVyZXN0IGVhcm5zIHJldHVybnMgb25seSBvbiB5b3VyIG9yaWdpbmFsIHByaW5jaXBhbCBkZXBvc2l0LiBDb21wb3VuZCBpbnRlcmVzdCwgaG93ZXZlciwgZWFybnMgcmV0dXJucyBvbiBib3RoIHlvdXIgcHJpbmNpcGFsIGFuZCB0aGUgYWNjdW11bGF0ZWQgaW50ZXJlc3QgZnJvbSBhbGwgcHJldmlvdXMgcGVyaW9kcy4nLFxuICAgICAgJ0luIHRoZSBmaXJzdCBmZXcgeWVhcnMsIGNvbXBvdW5kIGludGVyZXN0IGxvb2tzIHNsb3cgYW5kIHN0ZWFkeS4gQnV0IGFmdGVyIDEwLCAxNSwgb3IgMjAgeWVhcnMsIHlvdXIgYWNjdW11bGF0ZWQgaW50ZXJlc3Qgc3RhcnRzIGdlbmVyYXRpbmcgZmFyIG1vcmUgbW9uZXkgZXZlcnkgeWVhciB0aGFuIHlvdXIgb3JpZ2luYWwgc2FsYXJ5IGRlcG9zaXRzLiBUaGlzIGV4cG9uZW50aWFsIGFjY2VsZXJhdGlvbiBpcyB3aGF0IGJ1aWxkcyBsb25nLXRlcm0gd2VhbHRoLicsXG4gICAgICAnVGhlIHRocmVlIGtleSBpbmdyZWRpZW50cyBvZiBjb21wb3VuZCBpbnRlcmVzdCBhcmU6IEFtb3VudCBpbnZlc3RlZCwgRXhwZWN0ZWQgcmV0dXJuIHJhdGUsIGFuZCBtb3N0IGltcG9ydGFudGx5LCBUaW1lLidcbiAgICBdLFxuICAgIGV4YW1wbGU6IHtcbiAgICAgIHRpdGxlOiAnUmVhbGlzdGljIEV4YW1wbGU6IEludmVzdGluZyDigrkxMCwwMDAgLyBNb250aCBhdCAxMiUgUmV0dXJuJyxcbiAgICAgIGRlc2NyaXB0aW9uOiAnQSBkaXNjaXBsaW5lZCBtb250aGx5IFNJUCBpbnRvIGEgYnJvYWQgZXF1aXR5IGluZGV4IGZ1bmQgb3ZlciAyMCB5ZWFyczonLFxuICAgICAgaXRlbXM6IFtcbiAgICAgICAgeyBsYWJlbDogJ0F0IDEwIFllYXJzJywgYW1vdW50OiAn4oK5MjMuMiBMYWtocycsIG5vdGU6ICdZb3UgaW52ZXN0ZWQg4oK5MTIgTGFraHMg4oCiIEludGVyZXN0IGdhaW5lZDog4oK5MTEuMiBMYWtocycgfSxcbiAgICAgICAgeyBsYWJlbDogJ0F0IDIwIFllYXJzJywgYW1vdW50OiAn4oK5OTkuOSBMYWtocycsIG5vdGU6ICdZb3UgaW52ZXN0ZWQg4oK5MjQgTGFraHMg4oCiIEludGVyZXN0IGdhaW5lZDog4oK5NzUuOSBMYWtocyEnIH1cbiAgICAgIF0sXG4gICAgICByZXN1bHQ6ICdOb3RpY2U6IER1cmluZyB0aGUgc2Vjb25kIDEwLXllYXIgcGVyaW9kLCB5b3VyIHdlYWx0aCBpbmNyZWFzZWQgYnkgb3ZlciDigrk3NiBMYWtocywgZXZlbiB0aG91Z2ggeW91ciBvd24gZGVwb3NpdHMgd2VyZSBvbmx5IOKCuTEyIExha2hzISdcbiAgICB9LFxuICAgIGFjdGl2aXR5OiB7XG4gICAgICB0eXBlOiAnY29tcG91bmQnLFxuICAgICAgdGl0bGU6ICdJbnRlcmFjdGl2ZSBDb21wb3VuZCBHcm93dGggU2ltdWxhdG9yJyxcbiAgICAgIGRlc2NyaXB0aW9uOiAnU2VlIGhvdyB5b3VyIG1vbnRobHkgaW52ZXN0bWVudCBtdWx0aXBsaWVzIGFjcm9zcyBkaWZmZXJlbnQgdGltZSBob3Jpem9uczonXG4gICAgfSxcbiAgICB0YWtlYXdheTogJ1RpbWUgaW4gdGhlIG1hcmtldCBiZWF0cyB0aW1pbmcgdGhlIG1hcmtldC4gU3RhcnRpbmcgZXZlbiA1IHllYXJzIGVhcmxpZXIgY2FuIGRvdWJsZSB5b3VyIGV2ZW50dWFsIHJldGlyZW1lbnQgd2VhbHRoLidcbiAgfSxcbiAge1xuICAgIGlkOiAnaW5mbGF0aW9uJyxcbiAgICB0aXRsZTogJ0luZmxhdGlvbjogVGhlIFNpbGVudCBQdXJjaGFzaW5nIFBvd2VyIEVhdGVyJyxcbiAgICBjYXRlZ29yeTogJ0luZmxhdGlvbicsXG4gICAgZXN0aW1hdGVkTWludXRlczogNCxcbiAgICBzdW1tYXJ5OiAnV2h5IHByaWNlcyBpbmNyZWFzZSBldmVyeSB5ZWFyIGFuZCBob3cga2VlcGluZyBjYXNoIGluIGEgc2F2aW5ncyBhY2NvdW50IHF1aWV0bHkgcmVkdWNlcyB5b3VyIHdlYWx0aC4nLFxuICAgIGV4cGxhbmF0aW9uOiBbXG4gICAgICAnSW5mbGF0aW9uIGlzIHRoZSBzdGVhZHkgcmlzZSBpbiB0aGUgcHJpY2VzIG9mIGdvb2RzIGFuZCBzZXJ2aWNlcyBvdmVyIHRpbWUuIElmIGFubnVhbCBpbmZsYXRpb24gaXMgNiUsIGFuIGl0ZW0gdGhhdCBjb3N0cyDigrkxMDAgdG9kYXkgd2lsbCBjb3N0IOKCuTEwNiBuZXh0IHllYXIuJyxcbiAgICAgICdUaGUgaGlkZGVuIGRhbmdlciBvZiBpbmZsYXRpb24gaXMgcHVyY2hhc2luZyBwb3dlciBlcm9zaW9uLiBJZiB5b3VyIG1vbmV5IHNpdHMgaWRsZSBpbiBhIHN0YW5kYXJkIGJhbmsgc2F2aW5ncyBhY2NvdW50IGVhcm5pbmcgMyUgaW50ZXJlc3Qgd2hpbGUgaW5mbGF0aW9uIGlzIDYlLCB5b3VyIHJlYWwgcHVyY2hhc2luZyBwb3dlciBkcm9wcyBieSAzJSBldmVyeSBzaW5nbGUgeWVhci4nLFxuICAgICAgJ0V2ZW4gdGhvdWdoIHlvdXIgYmFuayBiYWxhbmNlIGxvb2tzIHRoZSBzYW1lLCB0aGF0IG1vbmV5IGJ1eXMgZmV3ZXIgZ3JvY2VyaWVzLCBmdWVsLCBhbmQgbWVkaWNhbCBzZXJ2aWNlcyBhcyB0aW1lIHBhc3Nlcy4nXG4gICAgXSxcbiAgICBleGFtcGxlOiB7XG4gICAgICB0aXRsZTogJ1JlYWxpc3RpYyBFeGFtcGxlOiBIb3VzZWhvbGQgRXhwZW5zZXMgT3ZlciBUaW1lJyxcbiAgICAgIGRlc2NyaXB0aW9uOiAnSWYgeW91ciBmYW1pbHkgbmVlZHMg4oK5MzAsMDAwL21vbnRoIHRvZGF5IGZvciBncm9jZXJpZXMgYW5kIGxpdmluZyBlc3NlbnRpYWxzIGF0IDYlIGFubnVhbCBpbmZsYXRpb246JyxcbiAgICAgIGl0ZW1zOiBbXG4gICAgICAgIHsgbGFiZWw6ICdUb2RheScsIGFtb3VudDogJ+KCuTMwLDAwMCAvIG1vbnRoJywgbm90ZTogJ0N1cnJlbnQgYmFzZWxpbmUgbGl2aW5nIGV4cGVuc2VzJyB9LFxuICAgICAgICB7IGxhYmVsOiAnSW4gMTAgWWVhcnMnLCBhbW91bnQ6ICfigrk1Myw3MjUgLyBtb250aCcsIG5vdGU6ICdTYW1lIGV4YWN0IGdvb2RzIGNvc3QgNzklIG1vcmUnIH0sXG4gICAgICAgIHsgbGFiZWw6ICdJbiAyMCBZZWFycycsIGFtb3VudDogJ+KCuTk2LDIxNCAvIG1vbnRoJywgbm90ZTogJ1lvdSBuZWVkIG92ZXIgdHJpcGxlIHRoZSBydXBlZXMgZm9yIHRoZSBzYW1lIGxpZmVzdHlsZSEnIH1cbiAgICAgIF0sXG4gICAgICByZXN1bHQ6ICdUbyBwcmVzZXJ2ZSB5b3VyIHdlYWx0aCwgeW91ciBsb25nLXRlcm0gbW9uZXkgbXVzdCBiZSBpbnZlc3RlZCBpbiBhc3NldHMgdGhhdCBkZWxpdmVyIGhpZ2hlciByZXR1cm5zIHRoYW4gaW5mbGF0aW9uIGFmdGVyIHRheC4nXG4gICAgfSxcbiAgICBhY3Rpdml0eToge1xuICAgICAgdHlwZTogJ2luZmxhdGlvbicsXG4gICAgICB0aXRsZTogJ0ludGVyYWN0aXZlIEluZmxhdGlvbiBJbXBhY3QgQ2FsY3VsYXRvcicsXG4gICAgICBkZXNjcmlwdGlvbjogJ1NlZSBob3cgZnV0dXJlIGluZmxhdGlvbiBpbmNyZWFzZXMgdGhlIGNvc3Qgb2YgeW91ciBjdXJyZW50IGV4cGVuc2VzOidcbiAgICB9LFxuICAgIHRha2Vhd2F5OiAnQ2FzaCBpbiBhIGJhbmsgYWNjb3VudCBndWFyYW50ZWVzIHNhZmV0eSBvZiBwcmluY2lwYWwsIGJ1dCBndWFyYW50ZWVzIGxvc3Mgb2YgcHVyY2hhc2luZyBwb3dlci4gSW52ZXN0IHRvIGJlYXQgaW5mbGF0aW9uLidcbiAgfSxcbiAge1xuICAgIGlkOiAnbG9hbnMtZW1pJyxcbiAgICB0aXRsZTogJ0xvYW5zICYgRU1JOiBNYXN0ZXJpbmcgRGVidCAmIFByZXBheW1lbnRzJyxcbiAgICBjYXRlZ29yeTogJ0xvYW5zIGFuZCBFTUknLFxuICAgIGVzdGltYXRlZE1pbnV0ZXM6IDUsXG4gICAgc3VtbWFyeTogJ0hvdyBtb250aGx5IGxvYW4gaW5zdGFsbG1lbnRzIHdvcmsgYW5kIHdoeSBtYWtpbmcgc21hbGwgcHJlcGF5bWVudHMgc2F2ZXMgbGFraHMgaW4gaW50ZXJlc3QuJyxcbiAgICBleHBsYW5hdGlvbjogW1xuICAgICAgJ0FuIEVxdWF0ZWQgTW9udGhseSBJbnN0YWxsbWVudCAoRU1JKSBoYXMgdHdvIGRpc3RpbmN0IHBhcnRzOiBQcmluY2lwYWwgcmVwYXltZW50IChwYXlpbmcgZG93biB0aGUgb3JpZ2luYWwgYm9ycm93ZWQgc3VtKSBhbmQgSW50ZXJlc3QgY2hhcmdlcyAodGhlIGZlZSB0aGUgYmFuayBjaGFyZ2VzIGZvciBsZW5kaW5nIHlvdSBtb25leSkuJyxcbiAgICAgICdJbiBsb25nLXRlcm0gbG9hbnMgKGxpa2UgaG9tZSBsb2FucyksIGJhbmtzIGZyb250LWxvYWQgdGhlIGludGVyZXN0LiBEdXJpbmcgdGhlIGZpcnN0IDUgeWVhcnMgb2YgYSAyMC15ZWFyIGxvYW4sIHVwIHRvIDcw4oCTODAlIG9mIGV2ZXJ5IHNpbmdsZSBFTUkgcGF5bWVudCBnb2VzIGRpcmVjdGx5IHRvd2FyZCBiYW5rIGludGVyZXN0LCBiYXJlbHkgcmVkdWNpbmcgeW91ciBhY3R1YWwgZGVidCEnLFxuICAgICAgJ1RoZSBnb29kIG5ld3M6IEFueSBleHRyYSBwcmVwYXltZW50IHlvdSBtYWtlIGdvZXMgMTAwJSBkaXJlY3RseSB0b3dhcmQgcmVkdWNpbmcgeW91ciBwcmluY2lwYWwsIHdoaWNoIGltbWVkaWF0ZWx5IGxvd2VycyB5b3VyIGZ1dHVyZSBpbnRlcmVzdCBjYWxjdWxhdGlvbnMuJ1xuICAgIF0sXG4gICAgZXhhbXBsZToge1xuICAgICAgdGl0bGU6ICdSZWFsaXN0aWMgRXhhbXBsZTog4oK5MzAgTGFraCBIb21lIExvYW4gYXQgOSUgZm9yIDIwIFllYXJzJyxcbiAgICAgIGRlc2NyaXB0aW9uOiAnVGhlIHJlYWwgbnVtYmVycyBiZWhpbmQgbG9uZy10ZXJtIGJhbmsgYm9ycm93aW5nOicsXG4gICAgICBpdGVtczogW1xuICAgICAgICB7IGxhYmVsOiAnTW9udGhseSBFTUknLCBhbW91bnQ6ICfigrkyNiw5OTInLCBub3RlOiAnRml4ZWQgbW9udGhseSBvYmxpZ2F0aW9uJyB9LFxuICAgICAgICB7IGxhYmVsOiAnVG90YWwgUmVwYXltZW50JywgYW1vdW50OiAn4oK5NjQsNzgsMDM0Jywgbm90ZTogJ1ByaW5jaXBhbDog4oK5MzBMICsgSW50ZXJlc3Q6IOKCuTM0LjhMJyB9LFxuICAgICAgICB7IGxhYmVsOiAnUHJlcGF5bWVudCBIYWNrJywgYW1vdW50OiAnU2F2ZXMgfuKCuTcsMjAsMDAwJywgbm90ZTogJ1BheWluZyBqdXN0IDEgZXh0cmEgRU1JIHBlciB5ZWFyIGN1dHMgdGVudXJlIGZyb20gMjAgdG8gMTYgeWVhcnMhJyB9XG4gICAgICBdLFxuICAgICAgcmVzdWx0OiAnT24gbG9uZyBsb2FucywgeW91IGZyZXF1ZW50bHkgcGF5IG1vcmUgaW4gaW50ZXJlc3QgdGhhbiB0aGUgbG9hbiBpdHNlbGYgdW5sZXNzIHlvdSBtYWtlIGRpc2NpcGxpbmVkIHByZXBheW1lbnRzLidcbiAgICB9LFxuICAgIGFjdGl2aXR5OiB7XG4gICAgICB0eXBlOiAnZW1pJyxcbiAgICAgIHRpdGxlOiAnSW50ZXJhY3RpdmUgRU1JICYgSW50ZXJlc3QgQ2FsY3VsYXRvcicsXG4gICAgICBkZXNjcmlwdGlvbjogJ0NhbGN1bGF0ZSB0aGUgbW9udGhseSBFTUksIHRvdGFsIGludGVyZXN0LCBhbmQgZnVsbCByZXBheW1lbnQgY29zdCBvZiBhbnkgbG9hbjonXG4gICAgfSxcbiAgICB0YWtlYXdheTogJ0F2b2lkIGhpZ2gtaW50ZXJlc3QgY29uc3VtZXIgZGVidC4gT24gbG9uZy10ZXJtIG1vcnRnYWdlcywgcHJlcGF5aW5nIHNtYWxsIGFtb3VudHMgZWFybHkgc2xhc2hlcyB5ZWFycyBvZiBkZWJ0IGFuZCBsYWtocyBpbiBpbnRlcmVzdC4nXG4gIH0sXG4gIHtcbiAgICBpZDogJ2NyZWRpdC1zY29yZXMnLFxuICAgIHRpdGxlOiAnQ3JlZGl0IFNjb3JlczogQnVpbGRpbmcgYW5kIFByb3RlY3RpbmcgWW91ciBDSUJJTCcsXG4gICAgY2F0ZWdvcnk6ICdDcmVkaXQgU2NvcmVzJyxcbiAgICBlc3RpbWF0ZWRNaW51dGVzOiA0LFxuICAgIHN1bW1hcnk6ICdIb3cgeW91ciAzLWRpZ2l0IHNjb3JlIGluZmx1ZW5jZXMgbG9hbiBhcHByb3ZhbHMgYW5kIGludGVyZXN0IHJhdGVzLCBhbmQgdGhlIDIgaGFiaXRzIHRvIG1haW50YWluIGEgNzUwKyBzY29yZS4nLFxuICAgIGV4cGxhbmF0aW9uOiBbXG4gICAgICAnSW4gSW5kaWEsIGNyZWRpdCBidXJlYXVzIChzdWNoIGFzIENJQklMLCBFeHBlcmlhbiwgYW5kIENSSUYpIGFzc2lnbiBpbmRpdmlkdWFscyBhIHNjb3JlIGJldHdlZW4gMzAwIGFuZCA5MDAgYmFzZWQgb24gdGhlaXIgZGVidCB0cmFjayByZWNvcmQ6JyxcbiAgICAgICfigKIgNzUwIHRvIDkwMCAoRXhjZWxsZW50KTogUHJpbWUgYm9ycm93ZXIuIFlvdSBxdWFsaWZ5IGZvciB0aGUgbG93ZXN0IGludGVyZXN0IHJhdGVzIGFuZCBpbnN0YW50IGNyZWRpdCBjYXJkIGFuZCBsb2FuIGFwcHJvdmFscy4nLFxuICAgICAgJ+KAoiA2NTAgdG8gNzQ5IChBdmVyYWdlKTogRmFpciBjcmVkaXQuIExvYW5zIGFyZSBhcHByb3ZlZCwgYnV0IGF0IGhpZ2hlciBpbnRlcmVzdCByYXRlcyB3aXRoIHN0cmljdGVyIHNjcnV0aW55LicsXG4gICAgICAn4oCiIEJlbG93IDY1MCAoSGlnaCBSaXNrKTogUG9vciBjcmVkaXQuIFZlcnkgZGlmZmljdWx0IHRvIG9idGFpbiBsb2FucyBvciBjcmVkaXQgY2FyZHMuJyxcbiAgICAgICdZb3VyIHNjb3JlIGlzIGRyaXZlbiBwcmltYXJpbHkgYnkgb24tdGltZSBwYXltZW50IGhpc3RvcnkgKDM1JSkgYW5kIHlvdXIgY3JlZGl0IHV0aWxpemF0aW9uIHJhdGlvICgzMCUpLidcbiAgICBdLFxuICAgIGV4YW1wbGU6IHtcbiAgICAgIHRpdGxlOiAnUmVhbGlzdGljIEV4YW1wbGU6IExvYW4gQ29zdCBmb3IgSGlnaCB2cyBBdmVyYWdlIENJQklMIFNjb3JlJyxcbiAgICAgIGRlc2NyaXB0aW9uOiAnVHdvIGluZGl2aWR1YWxzIGFwcGx5aW5nIGZvciBhIOKCuTQwLDAwLDAwMCBob21lIGxvYW4gZm9yIDIwIHllYXJzOicsXG4gICAgICBpdGVtczogW1xuICAgICAgICB7IGxhYmVsOiAnUHJpeWEgKFNjb3JlIDc5MCknLCBhbW91bnQ6ICc4LjQlIFJhdGUg4oCiIEVNSTog4oK5MzQsNDYwJywgbm90ZTogJ1RvdGFsIGludGVyZXN0IHBhaWQ6IOKCuTQyLjcgTGFraHMnIH0sXG4gICAgICAgIHsgbGFiZWw6ICdSYWh1bCAoU2NvcmUgNjYwKScsIGFtb3VudDogJzkuNiUgUmF0ZSDigKIgRU1JOiDigrkzNyw1NDInLCBub3RlOiAnVG90YWwgaW50ZXJlc3QgcGFpZDog4oK5NTAuMSBMYWtocycgfVxuICAgICAgXSxcbiAgICAgIHJlc3VsdDogJ1ByaXlhIHNhdmVzIOKCuTMsMDgyIGV2ZXJ5IHNpbmdsZSBtb250aCwgcG9ja2V0aW5nIG92ZXIg4oK5Nyw0MCwwMDAgaW4gc2F2aW5ncyBzaW1wbHkgYnkga2VlcGluZyBhIGhlYWx0aHkgY3JlZGl0IHNjb3JlLidcbiAgICB9LFxuICAgIGFjdGl2aXR5OiB7XG4gICAgICB0eXBlOiAnY3JlZGl0JyxcbiAgICAgIHRpdGxlOiAnSW50ZXJhY3RpdmUgQ3JlZGl0IFV0aWxpemF0aW9uIENoZWNrZXInLFxuICAgICAgZGVzY3JpcHRpb246ICdDaGVjayB3aGV0aGVyIHlvdXIgbW9udGhseSBjcmVkaXQgY2FyZCB1c2FnZSBpcyBzYWZlbHkgaW5zaWRlIHRoZSBoZWFsdGh5IDMwJSBib3VuZGFyeTonXG4gICAgfSxcbiAgICB0YWtlYXdheTogJ0Fsd2F5cyBwYXkgMTAwJSBvZiB5b3VyIGNyZWRpdCBjYXJkIGJpbGwgYmVmb3JlIHRoZSBkdWUgZGF0ZSwgYW5kIGtlZXAgeW91ciBjcmVkaXQgY2FyZCBzcGVuZCBiZWxvdyAzMCUgb2YgeW91ciBjcmVkaXQgbGltaXQuJ1xuICB9LFxuICB7XG4gICAgaWQ6ICdpbnN1cmFuY2UnLFxuICAgIHRpdGxlOiAnSW5zdXJhbmNlOiBQcm90ZWN0aW5nIFdoYXQgTWF0dGVycyBNb3N0JyxcbiAgICBjYXRlZ29yeTogJ0luc3VyYW5jZScsXG4gICAgZXN0aW1hdGVkTWludXRlczogNCxcbiAgICBzdW1tYXJ5OiAnV2h5IHB1cmUgdGVybSBsaWZlIGluc3VyYW5jZSBhbmQgY29tcHJlaGVuc2l2ZSBoZWFsdGggaW5zdXJhbmNlIG11c3QgY29tZSBiZWZvcmUgYW55IGludmVzdG1lbnQuJyxcbiAgICBleHBsYW5hdGlvbjogW1xuICAgICAgJ0luc3VyYW5jZSBpcyBub3QgYW4gaW52ZXN0bWVudCB0b29sOyBpdCBpcyBhIGZpbmFuY2lhbCBzZWF0YmVsdC4gSXRzIHB1cnBvc2UgaXMgdG8gYWJzb3JiIGNhdGFzdHJvcGhpYyBmaW5hbmNpYWwgc2hvY2sgc28geW91ciBmYW1pbHkgbmV2ZXIgZmFsbHMgaW50byBkZWJ0IG9yIGxpcXVpZGF0ZXMgc2F2aW5ncyBkdWUgdG8gaWxsbmVzcyBvciBsb3NzIG9mIGxpZmUuJyxcbiAgICAgICdFdmVyeSBlYXJuZXIgbmVlZHMgdHdvIGVzc2VudGlhbCBwb2xpY2llczonLFxuICAgICAgJzEuIFB1cmUgVGVybSBMaWZlIEluc3VyYW5jZTogUHJvdmlkZXMgYSBsYXJnZSBzdW0gKDEw4oCTMTV4IHlvdXIgYW5udWFsIHNhbGFyeSkgdG8geW91ciBkZXBlbmRlbnRzIGluIGNhc2Ugb2YgdW50aW1lbHkgZGVhdGguIEl0IGhhcyBubyBpbnZlc3RtZW50IGdpbW1pY2tzIGFuZCBpcyB2ZXJ5IGFmZm9yZGFibGUuJyxcbiAgICAgICcyLiBDb21wcmVoZW5zaXZlIEhlYWx0aCBJbnN1cmFuY2U6IENvdmVycyBob3NwaXRhbGl6YXRpb24sIGRheS1jYXJlIHByb2NlZHVyZXMsIGFuZCBjcml0aWNhbCB0cmVhdG1lbnRzLCBzaGllbGRpbmcgeW91ciBoYXJkLWVhcm5lZCBzYXZpbmdzIGZyb20gbWVkaWNhbCBpbmZsYXRpb24uJ1xuICAgIF0sXG4gICAgZXhhbXBsZToge1xuICAgICAgdGl0bGU6ICdSZWFsaXN0aWMgRXhhbXBsZTogUHVyZSBUZXJtIENvdmVyIHZzIEVuZG93bWVudCBQbGFuJyxcbiAgICAgIGRlc2NyaXB0aW9uOiAnQSAyOC15ZWFyLW9sZCBub24tc21va2VyIGVhcm5pbmcg4oK5NywwMCwwMDAgcGVyIHllYXI6JyxcbiAgICAgIGl0ZW1zOiBbXG4gICAgICAgIHsgbGFiZWw6ICdQdXJlIFRlcm0gSW5zdXJhbmNlJywgYW1vdW50OiAn4oK5MSBDcm9yZSBDb3ZlcicsIG5vdGU6ICdDb3N0cyBvbmx5IH7igrk4MDAgdG8g4oK5MSwwMDAgcGVyIG1vbnRoJyB9LFxuICAgICAgICB7IGxhYmVsOiAnRW5kb3dtZW50IC8gVUxJUCBQbGFuJywgYW1vdW50OiAn4oK5MiBMYWtocyBDb3ZlcicsIG5vdGU6ICdDb3N0cyB0aGUgc2FtZSDigrkxLDAwMC9tb250aCB3aXRoIG1lZGlvY3JlIDQtNSUgcmV0dXJuJyB9XG4gICAgICBdLFxuICAgICAgcmVzdWx0OiAnQnkgdGFraW5nIHB1cmUgdGVybSBjb3ZlciwgeW91IHNlY3VyZSA1MHggaGlnaGVyIGNvdmVyYWdlIGZvciB5b3VyIGZhbWlseSB3aGlsZSBrZWVwaW5nIHlvdXIgcmVtYWluaW5nIHNhdmluZ3MgZnJlZSB0byBncm93IGluIGVxdWl0eSBtdXR1YWwgZnVuZHMuJ1xuICAgIH0sXG4gICAgYWN0aXZpdHk6IHtcbiAgICAgIHR5cGU6ICdpbnN1cmFuY2UnLFxuICAgICAgdGl0bGU6ICdUZXJtIExpZmUgSW5zdXJhbmNlIENvdmVyIEVzdGltYXRvcicsXG4gICAgICBkZXNjcmlwdGlvbjogJ0NhbGN1bGF0ZSB0aGUgcmVjb21tZW5kZWQgbGlmZSBjb3ZlciBiYXNlZCBvbiB5b3VyIGFubnVhbCBpbmNvbWUgYW5kIGxpYWJpbGl0aWVzOidcbiAgICB9LFxuICAgIHRha2Vhd2F5OiAnTmV2ZXIgbWl4IGluc3VyYW5jZSB3aXRoIGludmVzdG1lbnRzLiBCdXkgYSBwdXJlIFRlcm0gTGlmZSBwbGFuIGFuZCBhIGNvbXByZWhlbnNpdmUgSGVhbHRoIGNvdmVyLCBhbmQgaW52ZXN0IHlvdXIgd2VhbHRoIHNlcGFyYXRlbHkuJ1xuICB9LFxuICB7XG4gICAgaWQ6ICd0YXhlcycsXG4gICAgdGl0bGU6ICdUYXhlczogRGlyZWN0IFRheGVzICYgT2xkIHZzIE5ldyBSZWdpbWUnLFxuICAgIGNhdGVnb3J5OiAnVGF4ZXMnLFxuICAgIGVzdGltYXRlZE1pbnV0ZXM6IDUsXG4gICAgc3VtbWFyeTogJ0hvdyB0byBjb21wYXJlIHRoZSBPbGQgYW5kIE5ldyB0YXggcmVnaW1lcyB0byBrZWVwIG1vcmUgb2YgeW91ciBoYXJkLWVhcm5lZCBwYXljaGVjay4nLFxuICAgIGV4cGxhbmF0aW9uOiBbXG4gICAgICAnSW4gSW5kaWEsIHNhbGFyaWVkIHRheHBheWVycyBjYW4gY2hvb3NlIGJldHdlZW4gdHdvIHRheCByZWdpbWVzIGVhY2ggZmluYW5jaWFsIHllYXI6JyxcbiAgICAgICfigKIgTmV3IFRheCBSZWdpbWUgKERlZmF1bHQpOiBPZmZlcnMgbG93ZXIgc2xhYiByYXRlcyBhbmQgZWxpbWluYXRlcyBwYXBlcndvcmsuIEluIEZZIDIwMjTigJMyNSwgc3RhbmRhcmQgZGVkdWN0aW9uICjigrk3NSwwMDApIGFuZCByZWJhdGUgbWFrZSBpbmNvbWUgdXAgdG8g4oK5Ny43NSBMYWtocyBjb21wbGV0ZWx5IHRheC1mcmVlLicsXG4gICAgICAn4oCiIE9sZCBUYXggUmVnaW1lOiBGZWF0dXJlcyBoaWdoZXIgdGF4IHNsYWIgcmF0ZXMsIGJ1dCBwZXJtaXRzIGRlZHVjdGlvbnMgbGlrZSBTZWN0aW9uIDgwQyAodXAgdG8g4oK5MS41TCBpbiBFUEYvRUxTUy9QUEYpLCBTZWN0aW9uIDgwRCAoaGVhbHRoIGluc3VyYW5jZSksIEhvdXNlIFJlbnQgQWxsb3dhbmNlIChIUkEpLCBhbmQgaG9tZSBsb2FuIGludGVyZXN0LicsXG4gICAgICAnVGhlIGNob2ljZSBjb21lcyBkb3duIHRvIG1hdGg6IElmIHlvdXIgdG90YWwgZWxpZ2libGUgZGVkdWN0aW9ucyBleGNlZWQg4oK5Mi414oCTMyBMYWtocywgdGhlIE9sZCBSZWdpbWUgbWF5IHNhdmUgeW91IG1vbmV5LiBPdGhlcndpc2UsIHRoZSBOZXcgUmVnaW1lIGlzIHNpbXBsZXIgYW5kIGNoZWFwZXIuJ1xuICAgIF0sXG4gICAgZXhhbXBsZToge1xuICAgICAgdGl0bGU6ICdSZWFsaXN0aWMgRXhhbXBsZTogQ29tcGFyaW5nIFJlZ2ltZXMgb24gYSDigrk5LDAwLDAwMCBTYWxhcnknLFxuICAgICAgZGVzY3JpcHRpb246ICdUYXggY29tcGFyaXNvbiBmb3IgYW4gYW5udWFsIENUQyBvZiDigrk5IExha2hzOicsXG4gICAgICBpdGVtczogW1xuICAgICAgICB7IGxhYmVsOiAnTmV3IFRheCBSZWdpbWUnLCBhbW91bnQ6ICdUYXg6IH7igrkzNSwwMDAnLCBub3RlOiAnU3RhbmRhcmQgZGVkdWN0aW9uIG9mIOKCuTc1LDAwMCB3aXRoIHplcm8gcGFwZXJ3b3JrJyB9LFxuICAgICAgICB7IGxhYmVsOiAnT2xkIFJlZ2ltZSAoTm8gRGVkdWN0aW9ucyknLCBhbW91bnQ6ICdUYXg6IH7igrk5NiwyMDAnLCBub3RlOiAnSGlnaGVyIHRheCBicmFja2V0cyB3aXRob3V0IGRlZHVjdGlvbnMnIH0sXG4gICAgICAgIHsgbGFiZWw6ICdPbGQgUmVnaW1lICjigrkzTCBEZWR1Y3Rpb25zKScsIGFtb3VudDogJ1RheDogfuKCuTMwLDAwMCcsIG5vdGU6ICdTbGlnaHRseSBsb3dlciB0YXgsIGJ1dCByZXF1aXJlcyDigrkzTCBsb2NrZWQgaW4gSFJBLzgwQycgfVxuICAgICAgXSxcbiAgICAgIHJlc3VsdDogJ0ZvciBtb3N0IHlvdW5nIGVhcm5lcnMsIHRoZSBOZXcgUmVnaW1lIHByb3ZpZGVzIGxvd2VyIHRheCB3aXRoIHRvdGFsIGZyZWVkb20gb3ZlciBob3cgeW91IHNwZW5kIG9yIGludmVzdCB5b3VyIG1vbmV5LidcbiAgICB9LFxuICAgIGFjdGl2aXR5OiB7XG4gICAgICB0eXBlOiAndGF4JyxcbiAgICAgIHRpdGxlOiAnT2xkIHZzIE5ldyBUYXggUmVnaW1lIEVzdGltYXRvcicsXG4gICAgICBkZXNjcmlwdGlvbjogJ0NvbXBhcmUgeW91ciBlc3RpbWF0ZWQgdGF4IGxpYWJpbGl0eSBiZXR3ZWVuIHRoZSB0d28gcmVnaW1lczonXG4gICAgfSxcbiAgICB0YWtlYXdheTogJ0lmIHlvdXIgdG90YWwgZWxpZ2libGUgZGVkdWN0aW9ucyBhcmUgYmVsb3cg4oK5Mi414oCTMyBMYWtocywgdGhlIE5ldyBUYXggUmVnaW1lIGlzIGNsZWFuZXIsIGhhc3NsZS1mcmVlLCBhbmQgdXN1YWxseSBzYXZlcyBtb3JlIHRheC4nXG4gIH0sXG4gIHtcbiAgICBpZDogJ3N0b2Nrcy1tdXR1YWwtZnVuZHMnLFxuICAgIHRpdGxlOiAnU3RvY2tzICYgTXV0dWFsIEZ1bmRzOiBHcm93aW5nIFJlYWwgV2VhbHRoJyxcbiAgICBjYXRlZ29yeTogJ1N0b2NrcyBhbmQgTXV0dWFsIEZ1bmRzJyxcbiAgICBlc3RpbWF0ZWRNaW51dGVzOiA1LFxuICAgIHN1bW1hcnk6ICdIb3cgZXF1aXR5IG93bmVyc2hpcCBhbmQgYnJvYWQgaW5kZXggZnVuZHMgb3V0cGFjZSBpbmZsYXRpb24gd2l0aG91dCB0aGUgc3RyZXNzIG9mIGRhaWx5IHN0b2NrIHBpY2tpbmcuJyxcbiAgICBleHBsYW5hdGlvbjogW1xuICAgICAgJ1RvIGJ1aWxkIGxvbmctdGVybSB3ZWFsdGgsIHlvdXIgaW52ZXN0bWVudHMgbXVzdCBncm93IGZhc3RlciB0aGFuIGluZmxhdGlvbi4gRXF1aXRpZXMgKHN0b2NrcykgcmVwcmVzZW50IGZyYWN0aW9uYWwgb3duZXJzaGlwIGluIHJlYWwsIHJldmVudWUtcHJvZHVjaW5nIGNvbXBhbmllcy4nLFxuICAgICAgJ1RoZXJlIGFyZSB0aHJlZSBwcmltYXJ5IHdheXMgcGVvcGxlIGludmVzdCBpbiBlcXVpdGllczonLFxuICAgICAgJ+KAoiBJbmRpdmlkdWFsIFN0b2NrczogQnV5aW5nIHNoYXJlcyBvZiBvbmUgY29tcGFueS4gSGlnaCBwb3RlbnRpYWwgZ2FpbnMsIGJ1dCBoaWdoIHJpc2sgaWYgdGhhdCBzaW5nbGUgY29tcGFueSBmYWlscy4nLFxuICAgICAgJ+KAoiBBY3RpdmVseSBNYW5hZ2VkIE11dHVhbCBGdW5kczogQSBmdW5kIG1hbmFnZXIgcG9vbHMgbW9uZXkgZnJvbSBpbnZlc3RvcnMgdG8gcGljayA0MOKAkzYwIGNvbXBhbmllcywgY2hhcmdpbmcgYSAx4oCTMiUgeWVhcmx5IGV4cGVuc2UgZmVlLicsXG4gICAgICAn4oCiIEJyb2FkIEluZGV4IEZ1bmRzIChOaWZ0eSA1MCk6IEF1dG9tYXRpY2FsbHkgaW52ZXN0cyBpbiBJbmRpYeKAmXMgdG9wIDUwIGJsdWUtY2hpcCBjb21wYW5pZXMgYXQgdWx0cmEtbG93IGZlZXMgKH4wLjElKS4gSXQgcmVtb3ZlcyBtYW5hZ2VyIHJpc2sgYW5kIGNhcHR1cmVzIHRoZSBncm93dGggb2YgdGhlIG92ZXJhbGwgSW5kaWFuIGVjb25vbXkuJ1xuICAgIF0sXG4gICAgZXhhbXBsZToge1xuICAgICAgdGl0bGU6ICdSZWFsaXN0aWMgRXhhbXBsZTog4oK5NSwwMDAgTW9udGhseSBTSVAgaW4gTmlmdHkgNTAgSW5kZXgnLFxuICAgICAgZGVzY3JpcHRpb246ICdMb25nLXRlcm0gY29tcG91bmRpbmcgYXQgaGlzdG9yaWNhbCBhdmVyYWdlIDEyLjUlIENBR1I6JyxcbiAgICAgIGl0ZW1zOiBbXG4gICAgICAgIHsgbGFiZWw6ICdBZnRlciA1IFllYXJzJywgYW1vdW50OiAn4oK5NC4xMiBMYWtocycsIG5vdGU6ICdUb3RhbCBJbnZlc3RlZDog4oK5My4wIExha2hzJyB9LFxuICAgICAgICB7IGxhYmVsOiAnQWZ0ZXIgMTAgWWVhcnMnLCBhbW91bnQ6ICfigrkxMS42MSBMYWtocycsIG5vdGU6ICdUb3RhbCBJbnZlc3RlZDog4oK5Ni4wIExha2hzJyB9LFxuICAgICAgICB7IGxhYmVsOiAnQWZ0ZXIgMTUgWWVhcnMnLCBhbW91bnQ6ICfigrkyNS4yMyBMYWtocycsIG5vdGU6ICdUb3RhbCBJbnZlc3RlZDog4oK5OS4wIExha2hzIOKAoiBDYXBpdGFsIEdhaW46IOKCuTE2LjIgTGFraHMhJyB9XG4gICAgICBdLFxuICAgICAgcmVzdWx0OiAnQSBkaXNjaXBsaW5lZCBtb250aGx5IFNJUCB0dXJucyBhIG1vZGVzdCDigrk1LDAwMC9tb250aCBpbnRvIGEgbWFqb3IgY29ycHVzIHdpdGhvdXQgbmVlZGluZyB0byB3YXRjaCBtYXJrZXQgY2hhcnRzLidcbiAgICB9LFxuICAgIGFjdGl2aXR5OiB7XG4gICAgICB0eXBlOiAnc2lwJyxcbiAgICAgIHRpdGxlOiAnSW50ZXJhY3RpdmUgU0lQIFdlYWx0aCBDYWxjdWxhdG9yJyxcbiAgICAgIGRlc2NyaXB0aW9uOiAnU2VlIHRoZSBwb3dlciBvZiBzeXN0ZW1hdGljIGludmVzdGluZyBhY3Jvc3MgZGlmZmVyZW50IG1vbnRobHkgYW1vdW50cyBhbmQgZHVyYXRpb25zOidcbiAgICB9LFxuICAgIHRha2Vhd2F5OiAnQXZvaWQgc3BlY3VsYXRpdmUgZGF5LXRyYWRpbmcgYW5kIGhvdCB0aXBzLiBTdGFydCBhIHJlZ3VsYXIgbW9udGhseSBTSVAgaW4gYSBsb3ctY29zdCBicm9hZCBpbmRleCBmdW5kIGFuZCBsZXQgY29tcG91bmRpbmcgd29yayBmb3IgeW91LidcbiAgfVxuXTtcblxuZXhwb3J0IGNvbnN0IFNVR0dFU1RFRF9BSV9RVUVTVElPTlMgPSBbXG4gICdIb3cgZG9lcyB0aGUgNTAvMzAvMjAgYnVkZ2V0IHJ1bGUgd29yayB3aXRoIGEgcmVhbGlzdGljIGV4YW1wbGU/JyxcbiAgJ0V4cGxhaW4gY29tcG91bmQgaW50ZXJlc3QgYW5kIHRoZSBSdWxlIG9mIDcyIGluIHNpbXBsZSB0ZXJtcy4nLFxuICAnV2h5IGRvZXMgaW5mbGF0aW9uIGh1cnQgbXkgc2F2aW5ncyBpZiBtb25leSBpcyBzaXR0aW5nIGluIGEgYmFuayBhY2NvdW50PycsXG4gICdIb3cgZG9lcyBwcmVwYXlpbmcgYW4gZXh0cmEgRU1JIG9uIGEgaG9tZSBsb2FuIHNhdmUgc28gbXVjaCBpbnRlcmVzdD8nLFxuICAnV2hhdCBpcyBhIGNyZWRpdCB1dGlsaXphdGlvbiByYXRpbyBhbmQgaG93IGRvIEkga2VlcCBteSBDSUJJTCBzY29yZSBhYm92ZSA3NTA/JyxcbiAgJ1doeSBpcyBwdXJlIHRlcm0gaW5zdXJhbmNlIGJldHRlciB0aGFuIGFuIGVuZG93bWVudCBwb2xpY3k/JyxcbiAgJ1doYXQgaXMgdGhlIGRpZmZlcmVuY2UgYmV0d2VlbiB0aGUgT2xkIGFuZCBOZXcgdGF4IHJlZ2ltZXMgaW4gSW5kaWE/JyxcbiAgJ1doYXQgaXMgdGhlIGRpZmZlcmVuY2UgYmV0d2VlbiBhIGRpcmVjdCBpbmRleCBmdW5kIGFuZCBhbiBhY3RpdmUgbXV0dWFsIGZ1bmQ/J1xuXTtcbiJdfQ==

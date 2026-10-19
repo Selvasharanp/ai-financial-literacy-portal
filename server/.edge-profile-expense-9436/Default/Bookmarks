@@ -1,0 +1,188 @@
+{
+   "checksum": "4501a3ce2b3b46d7d0034bb7dd13d064",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13337176072441733",
+            "date_last_used": "0",
+            "guid": "b5d10d44-af90-4bab-8f2b-46e79b6db010",
+            "id": "12",
+            "name": "ChatGPT",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://chat.openai.com/auth/ext_callback_refresh?next=%2F",
+            "visit_count": 0
+         }, {
+            "date_added": "13338384193645614",
+            "date_last_used": "0",
+            "guid": "3ae5cb8d-a487-4933-851a-70363d72f0a3",
+            "id": "13",
+            "name": "BIP",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://bip.bitsathy.ac.in/nova/login",
+            "visit_count": 0
+         }, {
+            "date_added": "13338384208412347",
+            "date_last_used": "0",
+            "guid": "e011f08f-1435-48f7-acd5-62f33496f457",
+            "id": "14",
+            "name": "CAMPS LOGIN",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://camps.bitsathy.ac.in/CAMPS/CommonJSP/login.jsp",
+            "visit_count": 0
+         }, {
+            "date_added": "13338384304989091",
+            "date_last_used": "0",
+            "guid": "6ab8b2a0-bca3-4aa4-adf1-1248ab26f88f",
+            "id": "15",
+            "name": "BANNARI AMMAN INSTITUTE OF TECHNOLOGY",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://moodle.bitsathy.ac.in/",
+            "visit_count": 0
+         }, {
+            "date_added": "13338384808295557",
+            "date_last_used": "0",
+            "guid": "143efb49-2d8a-4961-9198-ef362ecd86d6",
+            "id": "16",
+            "name": "Swayam Central",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://swayam.gov.in/",
+            "visit_count": 0
+         }, {
+            "date_added": "13368859848646207",
+            "date_last_used": "0",
+            "guid": "da6b48be-638c-46b8-8add-bc6e429884c8",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "New tab",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "edge://newtab/",
+            "visit_count": 0
+         }, {
+            "date_added": "13374078419621960",
+            "date_last_used": "0",
+            "guid": "149ae18d-66b1-43a7-a558-0372c61d77e1",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.amazon.in/?tag=msndeskstdin-21&ref=pd_sl_2gvqstl6yd_e&adgrpid=1326012680679100&hvadid=82876055443053&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=143951&hvtargid=kwd-82876732607273:loc-90&hydadcr=5619_2377285&msclkid=4e86c3d5e8c01c82ce12a4c2446591a0",
+            "visit_count": 1
+         }, {
+            "children": [ {
+               "date_added": "13336816407181848",
+               "date_last_used": "0",
+               "guid": "3d52b77e-0a16-4874-a2d4-8abbdc2ca062",
+               "id": "20",
+               "name": "Dell Auction",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www.dellauction.com/",
+               "visit_count": 0
+            }, {
+               "date_added": "13336816407197483",
+               "date_last_used": "0",
+               "guid": "8add2314-be9a-4fa6-8ceb-69211919ae24",
+               "id": "21",
+               "name": "Dell",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www1.ap.dell.com/content/default.aspx?c=in&l=en&s=gen",
+               "visit_count": 0
+            }, {
+               "date_added": "13336816407199494",
+               "date_last_used": "0",
+               "guid": "109c7475-a932-405d-ab0e-93d334c1b53d",
+               "id": "22",
+               "name": "Support.Dell.Com",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www.dell.com/support/home",
+               "visit_count": 0
+            } ],
+            "date_added": "13436882149077155",
+            "date_last_used": "0",
+            "date_modified": "13436882149588943",
+            "guid": "866d5d13-d23d-4e9e-8782-961bb2afca85",
+            "id": "19",
+            "name": "Dell",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "date_added": "13436882144060274",
+            "date_last_used": "0",
+            "guid": "be95a522-632f-4f8e-9ddc-680b8867ee11",
+            "id": "7",
+            "name": "McAfee Security",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/dell.html",
+            "visit_count": 0
+         } ],
+         "date_added": "13436882143608958",
+         "date_last_used": "0",
+         "date_modified": "13436882149588477",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13436882143608958",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13436882143608958",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "workspaces_v2": {
+         "children": [  ],
+         "date_added": "13436882143608958",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "75aa6670-344f-549d-b742-660f029506ab",
+         "id": "5",
+         "name": "Workspaces",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCOcp21OhAQAAKg4QABgBIAAoBTAAOABAABIAKhhpTXlHTXdPdWVMU09VSzJlNDQvd0JRPT1IA6AGDBKMAQgDEocBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQ3ZTY5MmRhYi1jYmUyLTU0NGUtOTUxNi1kNzQ5YWVmODI5MmYYACAAKAAwgcWFy7oxOOrIhcu6MUDqyIXLujFKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1lAAAAAMI+AmAAEq0BCBYSqAEKHGVjVTVGRVFCaktQaGlMaC9MZkhuL2YzQ0h6az0SJDEwOWM3NDc1LWE5MzItNDA1ZC1hYjBlLTkzZDMzNGMxYjUzZBgAIAAoADD6g4GelTQ4jZCBnpU0QI2QgZ6VNEocR0h0MXpuTXNiUHBVa25lVHVkV2NESVloL0Y0PVofIh3cclNZbzl3WFFNc1JaOUViVGpxSmpFS0Q3OXVnPWUAAAAAwj4CYAISrQEIFRKoAQocY2pjeEJSQ3BnSWxsV0tWS0FEaDd5dWt4cUxFPRIkOGFkZDIzMTQtYmU5YS00ZmE2LThjZWItNjkyMTE5MTlhZTI0GAAgACgAMPmDgZ6VNDj/joGelTRA/46BnpU0ShwvM3RkY05xcWN5UVIwWm1wM2xDQkdseEdoZHM9Wh8iHbltTmYxTWhVZUlEWGk3SXlPQXFKU3JmQ3YzTm89ZQAAAADCPgJgAhKsAQgUEqcBChxwaWZoOXlJZkNpWGlIMUlDeUxkTkMyZ25hVUU9EiQzZDUyYjc3ZS0wYTE2LTQ4NzQtYTJkNC04YWJiZGMyY2EwNjIYACAAKAAw+IOBnpU0OOGNgZ6VNEDhjYGelTRKHDRZbWRFYU1tUHRqcWY3ZHhpVm5RNElnYTNsaz1aHiIcc2srZjBnenRZNmhqeFJzS1BOQkNmdnRYT3owPWUAAAAAwj4CYAISrQEIEhKoAQocQ09OdU1NZ3owS2dPYkx2aWlhOHlMaTVWRWY4PRIkMTQ5YWUxOGQtNjZiMS00M2E3LWE1NTgtMDM3MmM2MWQ3N2UxGAAgACgAMIfq7KOrMjiA6+yjqzJAgOvso6syShx6NlNzRVNsMWljVXRxdmZRbjBzT3pzaWtEL1U9Wh8iHfpGTmFTZTZiY29EVmRQMTZ2NERtYzlRdDE2VlU9ZXW+NVLCPgJgBRKsAQgNEqcBChxZVWM5SUdEZ2lneU1ZN1l5SG02dHFadWlhaGc9EiQzYWU1Y2I4ZC1hNDg3LTQ5MzMtODUxYS03MDM2M2Q3MmYwYTMYACAAKAAwxbiS/vExOPS7kv7xMUD0u5L+8TFKHFVmZEt6TnRmdE52bWJMSmZLK3RpdWZRNnF5ND1aHiIcWWFNTEpUZ2tWa0M0RTRyR2FrbStOaVEzM1RNPWUQMP/kwj4CYAUSrQEIERKoAQocSzUzQU5pck04ODJJRXBOL3BoT1FSNUtGK3ZjPRIkZGE2YjQ4YmUtNjM4Yy00NmI4LThhZGQtYmM2ZTQyOTg4NGM4GAAgACgAMLWruOuXMjikrbjrlzJApK2465cyShxqNE56RUJDeEx2YVRCUnF1YTZXbnplbnRzODA9Wh8iHfU2TWtNOWxENTJJWUk4VDRwNHovQjd0TGVKbHc9ZdivsALCPgJgBRKtAQgOEqgBChxTMVlhbFBlVFQ2QVZ0MU15YkFocEl0UW9qWGM9EiRlMDExZjA4Zi0xNDM1LTQ4ZjctYWNkNS02MmYzMzQ5NmY0NTcYACAAKAAww7iS/vExOLC7kv7xMUCwu5L+8TFKHEliMEdoUWpCMldYRDkyTXM1ZVcwTHNvSWZycz1aHyIdrFJnVHVoSTN4TFo1ZTg3d2x0Q29TQ2JtMHFKdz1lc8f2WMI+AmAFEowBCAEShwEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJGFjODIyOGZiLWJmM2EtNTIzNS04NWFjLWIyMDRjNGMwYWRmYhgAIAAoADD7xIXLujE478eFy7oxQO/Hhcu6MUocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPWUAAAAAwj4CYAASrQEIExKoAQoca2dZcVkzVE5MdkhZU3RabnNkaW9Mamp2eE5FPRIkODY2ZDVkMTMtZDIzZC00ZTllLTg3ODItOTYxYmIyYWZjYTg1GAAgACgAMPeDgZ6VNDjMjIGelTRAzIyBnpU0ShxDL0FjcVFZMDZtODdIQmkvZTlvcTJEYTFUVVU9Wh8iHf1BbmZLV0NON0l2QmdNM0g5SFp1d2N5OHMvMzQ9ZQAAAADCPgJgABKtAQgQEqgBChxRWXg1SjZZNkxjS25xQWpLYXdOTHJYT3B3dkk9EiQxNDNlZmI0OS0yZDhhLTQ5NjEtOTE5OC1lZjM2MmVjZDg2ZDYYACAAKAAwuaHn5Z8zOIy8kv7xMUCMvJL+8TFKHDBmcjFET0pWNnE1YWJnUmNERllnLysrVEUwQT1aHyId62FCQnpWTGtzdUE3SGpKeHlrUWxRWE5VWGVJYz1lcy8gH8I+AmAFEq0BCA8SqAEKHERzR3NvT212aVJzeitWcFhONVdMZzJWM3JSZz0SJDZhYjhiMmEwLWJjYTMtNGFhNC1hZGYxLTEyNDhhYjI2Zjg4ZhgAIAAoADCBp7XYnTI427uS/vExQNu7kv7xMUocS1FlSmVyZ0NwbGdpdHBUMnF0QkpIemREYnpzPVofIh3WdVpWLy96a1Z4Z3JBQjE3MGdmanZUQ2M2ZGswPWWQUGDcwj4CYAUSrAEIDBKnAQocZXlYUExOaGdZbFhBU1ZPT3hCbHExYUJid0hBPRIkYjVkMTBkNDQtYWY5MC00YmFiLThmMmItNDZlNzliNmRiMDEwGAAgACgAMLqh5+WfMziYu5L+8TFAmLuS/vExShxyUkpCZEdtRHM1MFliallra1FPZkNHOWZXL2s9Wh4iHEd2bm5YSFdna3YzbjBFVFJ3WDJUd3U4Q3dGQT1lv7EQwcI+AmAFEowBCAIShwEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJDQ2MDJjOTRiLWFkYmEtNTU3MC1iYzVlLWE2ZTE2NGVjYWQ3ZBgAIAAoADD8xIXLujE4n8iFy7oxQJ/Ihcu6MUocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PWUAAAAAwj4CYAASjAEIBRKHAQocd1JCclpMKzZQQTlhdktnak5QN0pYRExjZnZzPRIkYTE3ZWU2YWQtNGVjZS01MGNjLTk2MGUtMWMwN2YwYzI0ZmVhGAAgACgAMPuw5uifMzjfsubonzNA37Lm6J8zShxubXg2NXNRRHZ4SThUZ0VlditBK250dG9TbjQ9ZQAAAADCPgJgADAAOAA=",
+   "version": 1
+}

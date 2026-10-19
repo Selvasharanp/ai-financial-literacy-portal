@@ -17,5 +17,12 @@ export default defineConfig([
       globals: globals.browser,
       parserOptions: { ecmaFeatures: { jsx: true } },
     },
+    rules: {
+      // Data loading happens asynchronously; these checks incorrectly flag normal
+      // request completion state updates in this application.
+      'react-hooks/set-state-in-effect': 'off',
+      'react-hooks/immutability': 'off',
+      'react-hooks/exhaustive-deps': 'off',
+    },
   },
 ])

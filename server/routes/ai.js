@@ -5,22 +5,34 @@ const auth = require('../middleware/authMiddleware');
 // ALL imports must be in ONE curly brace block
 const { 
     getAIInsights, 
+    getFinancialDashboard,
     chatWithAI, 
     getLocationBenchmark, 
-    parseVoiceCommand 
+    parseVoiceCommand,
+    parseWhatIfScenario,
+    explainConcept
 } = require('../controllers/aiController');
 
 // @route   GET /api/ai/insights
 // @desc    Get AI-generated financial advice based on transaction history
 router.get('/insights', auth, getAIInsights);
+router.get('/financial-dashboard', auth, getFinancialDashboard);
 
 // @route   POST /api/ai/chat
 // @desc    Chat with the financial AI
 router.post('/chat', auth, chatWithAI);
 
+// @route   POST /api/ai/explain
+// @desc    Explain financial concepts with AI
+router.post('/explain', auth, explainConcept);
+
 // @route   POST /api/ai/parse-voice
 // @desc    Convert voice transcript into structured JSON data
 router.post('/parse-voice', auth, parseVoiceCommand);
+
+// @route   POST /api/ai/parse-what-if
+// @desc    Parse what-if natural language query into structured financial scenario
+router.post('/parse-what-if', auth, parseWhatIfScenario);
 
 // @route   GET /api/ai/benchmark
 // @desc    Compare spending to city averages

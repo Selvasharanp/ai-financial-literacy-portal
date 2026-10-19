@@ -1,0 +1,46 @@
+2026-10-19 11:15:43.984: [INFO] CurrentProfilePath: D:\financial-literacy-portal\server\.edge-profile-expense-9436\Default
+2026-10-19 11:15:43.984: [INFO] Profiles total count: 1
+2026-10-19 11:15:43.984: [INFO] Profile: name=Profile 1 path=D:\financial-literacy-portal\server\.edge-profile-expense-9436\Default lastActive=null
+2026-10-19 11:15:43.984: [INFO] LastUsedProfileDir: D:\financial-literacy-portal\server\.edge-profile-expense-9436\Default
+2026-10-19 11:15:43.984: [INFO] VisibilityChanged: 0
+2026-10-19 11:15:44.060: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:44.061: [INFO] OnDoneLoading sync enabled: 0
+2026-10-19 11:15:44.061: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-19 11:15:44.061: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-19 11:15:44.061: [INFO] BookmarksSnapshot Startup total=1 bar=1 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-19 11:15:44.189: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-10-19 11:15:45.816: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-10-19 11:15:45.828: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-19 11:15:45.834: [INFO] Primary account changed.
+2026-10-19 11:15:45.834: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-10-19 11:15:45.864: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-19 11:15:45.909: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-19 11:15:49.077: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:49.078: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:49.078: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:49.078: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:49.585: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:49.585: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:49.586: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:49.586: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:49.587: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:49.587: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:49.588: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:49.588: [INFO] BookmarkNodeMoved
+2026-10-19 11:15:49.588: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:49.588: [INFO] BookmarkNodeMoved
+2026-10-19 11:15:49.588: [INFO] BookmarkNodeMoved
+2026-10-19 11:15:49.588: [INFO] BookmarkNodeMoved
+2026-10-19 11:15:49.589: [INFO] ReorderChildren, Url: 0, IsFolder: 1, IsWorkspace: 0
+2026-10-19 11:15:49.589: [INFO] Remove, DeletionOrigin: 19
+2026-10-19 11:15:49.590: [INFO] BookmarkNodeRemoved, Url: 0, IsFolder: 1, IsWorkspace: 0
+2026-10-19 11:15:49.591: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:49.591: [INFO] Remove, DeletionOrigin: 19
+2026-10-19 11:15:49.591: [INFO] BookmarkNodeRemoved, Url: 1, IsFolder: 0, IsWorkspace: 0
+2026-10-19 11:15:49.592: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:49.592: [INFO] Remove, DeletionOrigin: 19
+2026-10-19 11:15:49.592: [INFO] BookmarkNodeRemoved, Url: 1, IsFolder: 0, IsWorkspace: 0
+2026-10-19 11:15:49.592: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-19 11:15:49.592: [INFO] Remove, DeletionOrigin: 19
+2026-10-19 11:15:49.593: [INFO] BookmarkNodeRemoved, Url: 1, IsFolder: 0, IsWorkspace: 0
+2026-10-19 11:15:49.899: [INFO] Sync initialization duration: 3462ms

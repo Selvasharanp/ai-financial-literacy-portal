@@ -1,0 +1,2 @@
+const mongoose = require('mongoose');
+module.exports = mongoose.model('Scenario', new mongoose.Schema({ userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true }, type: { type: String, enum: ['reduce_category', 'save_more', 'one_time_expense'], required: true }, category: String, amount: Number, percent: Number, result: mongoose.Schema.Types.Mixed, createdAt: { type: Date, default: Date.now } }));
